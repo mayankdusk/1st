@@ -1,0 +1,84 @@
+/* h3{
+    color:magenta;
+}
+h1{
+    color:silver;
+}
+h1,p {
+    color: red;
+}
+.parent > p{
+    color: rgb(202, 15, 46);
+}
+.parent + p{
+    color: yellow;
+}
+.pseudo {
+    color: darkmagenta;
+}
+.pseudo:hover{
+    color:orange;
+}
+input{
+    background-color: black;
+}
+input:focus{
+    background-color: darkblue;
+} */
+/* body{
+    font-size: 100px;
+    height: 500px;
+    background-color: aqua;
+    background-image: url('download.jpg');
+    background-repeat: no-repeate;
+
+}
+p{
+    color:red;
+    background-color: lightblue;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: line-through;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 100px;
+    margin: 100px;
+} */
+
+.box-static{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 10px;
+    position: static;
+}
+
+.box-fixed{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    position: fixed;
+    top: 300px;
+    left: 300px; 
+}
+
+.box-relative{
+    height:400px;
+    width: 500px;
+    background-color: yellow;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    top: 10px;
+    left: 200px;
+}
+.box-abs{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position:absolute;
+    right: 10px;
+}
